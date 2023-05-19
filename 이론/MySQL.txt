@@ -1,0 +1,12 @@
+#
+mysql 터미널 명령어
+mysql-ctl cli :
+mysql 커맨드라인을 시작하는 명렁어.
+---
+##
+mysql sql 문
+$ 일반적으로 sql문은 대문자를 쓰는게 원칙이다
+CREATE DATABASE <name>;
+ex)
+CREATE DATABASE soap_shop;
+$ 언더바를 쓰는 표기법을 스네이크 표기법이라 한다. (권장사항인듯하다.)
