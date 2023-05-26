@@ -1,0 +1,5 @@
+#
+전체 데이터 보기 문법
+SELECT * FROM <tablename>;
+ex)
+SELECT * FROM cats;
