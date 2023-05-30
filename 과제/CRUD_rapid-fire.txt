@@ -1,0 +1,14 @@
+1. cat_id 열만 확인
+SELECT cat_id FROM cats;
+
+2. name이랑 age 열만 확인
+SELECT name, breed FROM cats;
+
+3. breed가 'Tabby'인 name, age 열 확인
+SELECT name, age FROM cats WHERE breed='Tabby';
+
+4. cat_id와 age가 같은 cat_id, age 열 확인
+SELECT cat_id, age FROM cats WHERE cat_id=age;
+
+5. cat_id와 age가 같은 전체 열 확인
+SELECT * FROM cats WHERE cat_id=age;

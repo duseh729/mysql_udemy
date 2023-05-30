@@ -1,0 +1,8 @@
+#
+Aliases : 
+데이터 자체를 바꾸는 게 아닌 보여지는 열의 이름만 바꾸는 문법
+## 문법
+SELECT * AS <바꿀이름> FROM <tablename>;
+ex)
+SELECT cat_id AS id FROM cats;
+SELECT name AS 'cat name', breed AS 'Kitty breed' FROM cats;

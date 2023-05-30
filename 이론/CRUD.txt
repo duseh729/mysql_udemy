@@ -1,0 +1,24 @@
+#
+Create (생성) :
+INSERT INTO <tablename>(columns_name)
+##
+VALUES (data);
+Read (읽기) :
+SELECT * FROM <tablename>
+##
+Update (수정) :
+UPDATE <tablename> SET data WHERE data;
+ex)
+UPDATE cats SET breed='Shorthair'
+WHERE breed='Tabby';
+UPDATE cats SET age=14
+WHERE name='Misty';
+$ 중요
+UPDATE와 DELETE는 실행 취소가 없기 때문에 목표하는 대상을 잘 선택했는지 확인해야 한다.
+그래서 변경 전에 SELECT 문법으로 데이터를 잘 선택했나 확인하고 삭제하는 게 좋다.
+##
+Delete (삭제) :
+DELETE FROM <tablename> WHERE 조건;
+ex)
+DELETE FROM cats WHERE name='Egg';
+DELETE FROM cats; // 전체 데이터 삭제

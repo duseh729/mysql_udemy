@@ -3,3 +3,16 @@
 SELECT * FROM <tablename>;
 ex)
 SELECT * FROM cats;
+##
+특정 열만 보기
+SELECT columns_name FROM <tablename>;
+ex)
+SELECT name FROM cats;
+SELECT name, age FROM cats;
+---
+WHERE문
+특정 데이터를 검색하는 문법
+SELECT * FROM <tablename> WHERE 조건문;
+ex)
+SELECT * FROM cats WHERE age=4;
+SELECT * FROM cats name='Egg';

@@ -1,0 +1,8 @@
+1. Jackson 이름을 'Jack'으로 바꿔라.
+UPDATE cats SET name='Jack' WHERE name='Jackson';
+
+2. Ringo(이름)의 품종을 'British Shorthair'로 바꿔라.
+UPDATE cats SET Breed='British Shorthair' WHERE name='Ringo';
+
+3. breed가 'Maine Coon'인 고양이의 나이를 모두 12살로 바꿔라.
+UPDATE cats SET age=12 WHERE breed='Maine Coon';
