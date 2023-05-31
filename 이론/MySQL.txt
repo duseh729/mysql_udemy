@@ -12,8 +12,11 @@ CREATE DATABASE soap_shop;
 $ 언더바를 쓰는 표기법을 스네이크 표기법이라 한다. (권장사항인듯하다.)
 ---
 ##
-데이터베이스 확인하는 문법
+데이터베이스 뭐 있는지 확인하는 문법
 SHOW DATABASES;
+##
+현재 선택된 데이터베이스 확인하는 문법
+SELECT database();
 ##
 데이터베이스 선택
 USE <database_name>
